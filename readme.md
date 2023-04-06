@@ -12,7 +12,7 @@
 
 プロジェクトディレクトリをダウンロードします。
 ```bash
-git clone https://github.com/hoge/~
+git clone https://github.com/hoge/~](https://github.com/ikuoikuo/text_QandA.git
 ```
 
 app.py の５行目に自身で取得したopenAIのAPIキーを入力してください。
@@ -23,7 +23,7 @@ openai.api_key = "あなたのopenAIのAPIキーを入力してください"
 
 プロジェクトディレクトリに移動し、イメージのビルド、コンテナの起動を行います。
 ```bash
-cd examples
+cd text_QandA
 docker build -t streamlit
 docker run -p 8501:8501 streamlit . 
 ```

@@ -25,7 +25,7 @@ openai.api_key = "あなたのopenAIのAPIキーを入力してください"
 ```bash
 cd text_QandA
 docker build -t streamlit .
-docker run -p 8501:8501 streamlit . 
+docker run -p 8501:8501 streamlit 
 ```
 ローカルホストでアクセスします。http://localhost:8501
 
